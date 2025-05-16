@@ -1,0 +1,3 @@
+.editor-post-taxonomies__hierarchical-terms-list[aria-label="Featured Content"] ~ .components-flex-item .editor-post-taxonomies__hierarchical-terms-add {
+	display: none;
+}
