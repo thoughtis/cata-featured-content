@@ -12,7 +12,7 @@
  * Description: Provide a Featured Content taxonomy.
  * Author:      Thought & Expression Co. <devjobs@thought.is>
  * Author URI:  https://thought.is
- * Version:     0.1.0-pre
+ * Version:     0.1.0-beta1
  * License:     GPL v3 or later
  * License URI: http://www.gnu.org/licenses/gpl-3.0.txt
  */
@@ -66,7 +66,7 @@ function cata_featured_content_activate() : void {
 	cata_feature_content_register_taxonomy();
 	wp_create_term( 'Featured', 'cata_featured_content' );
 }
-// register_activation_hook( __FILE__, 'cata_featured_content_activate' );
+register_activation_hook( __FILE__, 'cata_featured_content_activate' );
 
 /**
  * Block Editor Assets
