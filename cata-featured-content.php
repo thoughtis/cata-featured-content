@@ -66,7 +66,7 @@ function cata_featured_content_activate() : void {
 	cata_feature_content_register_taxonomy();
 	wp_create_term( 'Featured', 'cata_featured_content' );
 }
-register_activation_hook( __FILE__, 'cata_featured_content_activate' );
+// register_activation_hook( __FILE__, 'cata_featured_content_activate' );
 
 /**
  * Block Editor Assets
